@@ -26,9 +26,9 @@ export default class App extends Component {
       results: [],
     };
 
-    Voice.onSpeechStart = this.onSpeechStart.bind(this)
-    Voice.onSpeechRecognized = this.onSpeechRecognized.bind(this)
-    Voice.onSpeechResults = this.onSpeechResults.bind(this)
+    Voice.onSpeechStart = this.onSpeechStart.bind(this);
+    Voice.onSpeechRecognized = this.onSpeechRecognized.bind(this);
+    Voice.onSpeechResults = this.onSpeechResults.bind(this);
   }
 
   onSpeechStart(e) {
